@@ -1,27 +1,102 @@
 {
   "stats": {
-    "suites": 0,
-    "tests": 0,
-    "passes": 0,
+    "suites": 4,
+    "tests": 6,
+    "passes": 6,
     "pending": 0,
-    "failures": 1,
-    "start": "2019-06-18T14:50:38.610Z",
-    "end": "2019-06-18T14:50:45.278Z",
-    "duration": 6668
+    "failures": 0,
+    "start": "2019-06-18T16:08:51.140Z",
+    "end": "2019-06-18T16:08:51.722Z",
+    "duration": 582
   },
-  "tests": [],
-  "pending": [],
-  "failures": [
+  "tests": [
     {
-      "title": "\"before all\" hook",
-      "fullTitle": "\"before all\" hook",
-      "duration": 6659,
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "Error: Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.\n    at Object.done (node_modules/mocha-jsdom/index.js:70:7)\n    at process.nextTick (node_modules/jsdom/lib/jsdom.js:312:18)\n    at process.internalTickCallback (internal/process/next_tick.js:70:11)",
-        "message": "Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
-      }
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not raise error if the mostProfitableNeighborhood is changed",
+      "fullTitle": "index.js mostProfitableNeighborhood does not raise error if the mostProfitableNeighborhood is changed",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not raise error if the companyCeo is changed",
+      "fullTitle": "index.js companyCeo does not raise error if the companyCeo is changed",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
     }
   ],
-  "passes": []
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not raise error if the mostProfitableNeighborhood is changed",
+      "fullTitle": "index.js mostProfitableNeighborhood does not raise error if the mostProfitableNeighborhood is changed",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not raise error if the companyCeo is changed",
+      "fullTitle": "index.js companyCeo does not raise error if the companyCeo is changed",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
 }
